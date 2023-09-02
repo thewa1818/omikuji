@@ -15,6 +15,22 @@
       <buttun id="btn">クリック</buttun>
     </div>
 
+    <div class="quiz">
+      <h1>牛丼クイズ</h1>
+      <h2 id="question">ここにクイズを表示</h2>
+      <ul>
+        <li id="ans1" class="answer"></li>
+        <li id="ans2" class="answer"></li>
+        <li id="ans3" class="answer"></li>
+      </ul>
+      <div id="btn-box">
+        <button id="btn1" onclick="check(1)">回答１</button>
+        <button id="btn2" onclick="check(2)">回答２</button>
+        <button id="btn3" onclick="check(3)">回答３</button>
+      </div>
+      <button id="btn4">もう一度挑戦する</button>
+    </div>
+
     <!-- jqueryが必ず先！ -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!--  -->
